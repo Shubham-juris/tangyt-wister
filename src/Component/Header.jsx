@@ -36,7 +36,7 @@ const Header = () => {
           {/* Desktop Center Logo */}
           <div className="hidden md:block">
             <NavLink to="/" className="block">
-              <img src="index.png" alt="Logo" className="max-h-12" />
+              <img src="logo.png" alt="Logo" className="max-h-12" />
             </NavLink>
           </div>
   
