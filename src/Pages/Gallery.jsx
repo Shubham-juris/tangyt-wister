@@ -61,6 +61,12 @@ const Gallery = () => {
         <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
           <img className="w-full h-auto object-cover" src="/gallery8.jpg" alt="Image 4" />
         </div>
+        <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img className="w-full h-auto object-cover" src="/image4.jpg" alt="Image 3" />
+        </div>
+        <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img className="w-full h-auto object-cover" src="/gallery9.jpg" alt="Image 3" />
+        </div>
       </div>
     </div>
   </div>
