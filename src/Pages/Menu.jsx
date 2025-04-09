@@ -7,30 +7,45 @@ const Menu = () => {
 {/* ............section1............ */}
 
 
-     <div className="flex bg-black mt-15 text-white sm:flex-row flex-col items-center justify-center p-10">
-      {/* Image Section */}
-      <div className="w-1/2 relative mt-11 sm:mr-6 w-full object-cover mb-3">
-        <img
-          src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600" // Replace with the actual path to your pizza image
-          alt="Delicious Pizza"
-          className="w-full h-auto object-cover"
-        />
-        {/* Optional: Overlay for better text visibility */}
-        <div className="absolute inset-0 bg-black opacity-20"></div>
-      </div>
+    
 
-      {/* Text Section */}
-      <div className="w-1/2 p-10 flex flex-col justify-center sm:items-start items-center w-full">
-       
-        <h2 className="text-4xl font-bold mb-4">ABOUT TANGY TWISTERS RESTAURANT</h2>
-        <p className="text-lg">
-          At Tangy Twisters, we're not just your ordinary restaurant – we're a culinary
-          destination that caters to all tastes and cravings. Specializing in a diverse
-          array of offerings, we proudly serve up a mouthwatering menu featuring pizzas,
-          sides, snacks, and even Indian cuisine.
-        </p>
-      </div>
-    </div>  
+    <div className="bg-black text-white flex flex-col sm:flex-row items-center justify-center p-6 md:p-10">
+  {/* Image Section */}
+  <div className="w-full sm:w-1/2 relative mb-4 sm:mb-0 sm:mr-6 overflow-hidden rounded-lg shadow-md">
+    <img
+      src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600"
+      alt="Delicious Pizza"
+      className="w-full h-auto object-cover transition-transform duration-500 transform scale-100 hover:scale-105"
+    />
+    {/* Subtle Gradient Overlay */}
+    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/10 to-black/30"></div>
+  </div>
+
+  {/* Text Section */}
+  <div className="w-full sm:w-1/2 p-6 md:p-9 flex flex-col justify-center text-center sm:text-left">
+    <h2 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4 tracking-tight">
+      ABOUT TANGY TWISTERS RESTAURANT
+    </h2>
+    <p className="text-lg leading-relaxed opacity-80">
+      At Tangy Twisters, we're not just your ordinary restaurant – we're a
+      culinary destination that caters to all tastes and cravings. Specializing
+      in a diverse array of offerings, we proudly serve up a mouthwatering menu
+      featuring pizzas, sides, snacks, and even Indian cuisine.
+    </p>
+    {/* Optional: Subtle animation on text hover */}
+    <style jsx>{`
+      .text-section:hover h2 {
+        transform: translateY(-2px);
+        transition: transform 0.2s ease-in-out;
+      }
+    `}</style>
+  </div>
+</div>
+
+
+
+
+
 
 
 

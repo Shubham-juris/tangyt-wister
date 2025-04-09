@@ -54,17 +54,12 @@ const Gallery = () => {
       </div>
       {/* Optional: Add a grid of images below the heading */}
       <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+        
         <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <img className="w-full h-auto object-cover" src=".../image1.jpg" alt="Image 1" />
+          <img className="w-full h-auto object-cover" src="/gallery7.jpg" alt="Image 3" />
         </div>
         <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <img className="w-full h-auto object-cover" src=".../image2.jpg" alt="Image 2" />
-        </div>
-        <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <img className="w-full h-auto object-cover" src=".../image3.jpg" alt="Image 3" />
-        </div>
-        <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-          <img className="w-full h-auto object-cover" src=".../image4.jpg" alt="Image 4" />
+          <img className="w-full h-auto object-cover" src="/gallery8.jpg" alt="Image 4" />
         </div>
       </div>
     </div>
