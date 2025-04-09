@@ -3,7 +3,7 @@ import React from 'react'
 
 const Gallery = () => {
     const galleryImages = [
-        '/public/image1.jpg',
+        '/image1.jpg',
         '/public/image2.jpg',
         '/public/image3.jpg',
         '/public/image4.jpg',
