@@ -14,7 +14,7 @@ const Header = () => {
           {/* Mobile Logo & Toggle */}
           <div className="md:hidden flex justify-between w-full">
             <NavLink to="/" className="block">
-              <img src="index.png" alt="Logo" className="h-10" />
+              <img src={"logo.png" } alt="Logo" className="h-10" />
             </NavLink>
             <button onClick={toggleMenu} className="text-white text-2xl focus:outline-none">
               {isOpen ? "✖" : "☰"}
