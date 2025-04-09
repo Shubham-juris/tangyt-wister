@@ -1,23 +1,23 @@
 import React from 'react';
-import { Routes ,Route,Link } from "react-router-dom";
+// import { Routes ,Route,Link } from "react-router-dom";
 
 import './App.css';
 import Header from './Component/Header';
-import Aboutpage from './Pages/Aboutpage';
-import About from './Pages/About';
-import Experience from './Pages/Experience';
-import Menu from './Pages/Menu';
-import Reservation from './Pages/Reservation';
-import Gallery from './Pages/Gallery';
-import Contactus from './Pages/Contactus';
-import Footer from './Component/Footer';
+// import Aboutpage from './Pages/Aboutpage';
+// import About from './Pages/About';
+// import Experience from './Pages/Experience';
+// import Menu from './Pages/Menu';
+// import Reservation from './Pages/Reservation';
+// import Gallery from './Pages/Gallery';
+// import Contactus from './Pages/Contactus';
+// import Footer from './Component/Footer';
 
 
 function App() {
   return (
     <>
       <Header/>
-      <Routes>
+      {/* <Routes>
         <Route>
           <Route path="/" element={<Aboutpage/>}/>
           <Route path="/about" element={<About/>}/>
@@ -30,7 +30,7 @@ function App() {
       </Routes>
       <Footer>
         <Link to ="/about"></Link>
-      </Footer>
+      </Footer> */}
        
     </>
   );
