@@ -1,4 +1,5 @@
 import React from 'react'
+import Experience from './Experience'
 
 const About = () => {
   return (
@@ -66,7 +67,16 @@ const About = () => {
         </div>
       </div>
     </div>
+
+
+
+    <Experience/>
     </div>
+    
+
+
+
+
   )
 }
 
