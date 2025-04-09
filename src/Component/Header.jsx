@@ -2,9 +2,6 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react';
 
-
-
-
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
   
@@ -70,53 +67,7 @@ const Header = () => {
           )}
         </div>
       </nav>
-    {/* <nav className="fixed top-0 left-0 w-full bg-black text-white z-50 py-3">
-      <div className="container mx-auto flex justify-between items-center px-20">
-        <ul className="flex space-x-6">
-          <li>
-            <NavLink  to="/" className="font-semibold hover:text-red-600">
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to = "/about" className="font-semibold hover:text-red-600 ">
-              About Us
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/menu" className="font-semibold hover:text-red-600 ">
-              Menu
-            </NavLink>
-          </li>
-        </ul>
-        <div className="order-1">
-          <NavLink to="/" className="block">
-            <img src="index.png" alt="Your Logo" className="max-h-12" />
-          </NavLink>
-        </div>
-        <ul className="flex space-x-4 order-2">
-          <li>
-            <NavLink to="/reservation" className="font-semibold hover:text-red-600 ">
-              Reservation
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to ="/gallery" className="font-semibold hover:text-red-600 ">
-              Gallery
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to ="/contact" className="font-semibold hover:text-red-600 ">
-              Contact Us
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-    </nav> */}
     
-  
-  
-   
     
   </>
   

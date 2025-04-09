@@ -11,7 +11,7 @@ import Reservation from './Pages/Reservation';
 import Gallery from './Pages/Gallery';
 import Contactus from './Pages/Contactus';
 import Footer from './Component/Footer';
-import { Link } from 'react-router-dom';
+
 
 function App() {
   return (
