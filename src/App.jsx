@@ -1,13 +1,37 @@
 import React from 'react';
+import { Routes ,Route,Link } from "react-router-dom";
 
 import './App.css';
+import Header from './Component/Header';
+import Aboutpage from './Pages/Aboutpage';
+import About from './Pages/About';
+import Experience from './Pages/Experience';
+import Menu from './Pages/Menu';
+import Reservation from './Pages/Reservation';
+import Gallery from './Pages/Gallery';
+import Contactus from './Pages/Contactus';
+import Footer from './Component/Footer';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <h1 class='text-3xl font-bold underline text-center mt-20 py-20 bg-stone-600'>
-        Hello world!
-      </h1>
+      <Header/>
+      <Routes>
+        <Route>
+          <Route path="/" element={<Aboutpage/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/experience" element={<Experience/>}/>
+          <Route path="/menu" element={<Menu/>}/>
+          <Route path="/reservation" element={<Reservation/>}/>
+          <Route path="/gallery" element={<Gallery/>}/>
+          <Route path="/contact" element={<Contactus/>}/>
+        </Route>
+      </Routes>
+      <Footer>
+        <Link to ="/about"></Link>
+      </Footer>
+       
     </>
   );
 }
