@@ -56,8 +56,8 @@ const Aboutpage = () => {
       {/* Text Section */}
       <div className="w-1/2 p-10 flex flex-col justify-center sm:items-start items-center w-full">
         
-        <h2 className="text-4xl font-bold mb-4">ABOUT TANGY TWISTERS RESTAURANT</h2>
-        <p className="text-lg">
+        <h2 className="text-4xl font-bold mb-4 sm:w-full">ABOUT TANGY TWISTERS RESTAURANT</h2>
+        <p className="text-lg sm:w-full">
           At Tangy Twisters, we're not just your ordinary restaurant – we're a culinary
           destination that caters to all tastes and cravings. Specializing in a diverse
           array of offerings, we proudly serve up a mouthwatering menu featuring pizzas,

@@ -6,7 +6,7 @@ const Contactus = () => {
     <div>
       {/* section1 */}
 
-<div className="relative bg-gray-800 mt-17 mb-0 py-13 overflow-hidden">
+<div className="relative bg-gray-800 mt-15 mb-0 py-13 overflow-hidden">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-70"

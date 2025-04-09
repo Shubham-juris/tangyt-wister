@@ -6,9 +6,9 @@ const About = () => {
       {/* about section ( about tangy twister) */}
 
     <div className="py-11 mt-18 bg-white">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center lg:px-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6  text-center lg:px-8">
       <h1 className="text-5xl my-8 mb-4">
-             TANGY TWISTER
+            ABOUT TANGY TWISTER
             <hr className="border-t border-gray my-8" />
           </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

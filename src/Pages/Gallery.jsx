@@ -4,20 +4,20 @@ import React from 'react'
 const Gallery = () => {
     const galleryImages = [
         '/image1.jpg',
-        '/public/image2.jpg',
-        '/public/image3.jpg',
-        '/public/image4.jpg',
-        '/public/image5.jpg',
-        '/public/image6.jpg',
-        '/public/image7.jpg',
-        '/public/image8.jpg',
-        '/public/image9.jpg',
-        '/public/image10.jpg',
-        '/public/image11.jpg',
-        '/public/image12.jpg',
-        '/public/image13.jpg',
-        '/public/image14.jpg',
-        '/public/image15.jpg',
+        '/image2.jpg',
+        '/image3.jpg',
+        '/image4.jpg',
+        '/image5.jpg',
+        '/image6.jpg',
+        '/image7.jpg',
+        '/image8.jpg',
+        '/image9.jpg',
+        '/image10.jpg',
+        '/image11.jpg',
+        '/image12.jpg',
+        '/image13.jpg',
+        '/image14.jpg',
+        '/image15.jpg',
       ];
   return (
     <div>
@@ -60,13 +60,13 @@ const Gallery = () => {
           
           
           <div className="flex overflow-x-auto space-x-4">
-            <img src="/public/image22.jpg" alt="Dish 1" className="w-64 h-auto rounded-md shadow-md" />
-            <img src="/public/image21.jpg" alt="Dish 2" className="w-64 h-auto rounded-md shadow-md" />
-            <img src="/public/image17.jpg" alt="Dish 3" className="w-64 h-auto rounded-md shadow-md" />
-            <img src="/public/image19.jpg" alt="Dish 1" className="w-64 h-auto rounded-md shadow-md" />
+            <img src="/image22.jpg" alt="Dish 1" className="w-64 h-auto rounded-md shadow-md" />
+            <img src="/image21.jpg" alt="Dish 2" className="w-64 h-auto rounded-md shadow-md" />
+            <img src="/image17.jpg" alt="Dish 3" className="w-64 h-auto rounded-md shadow-md" />
+            <img src="/image19.jpg" alt="Dish 1" className="w-64 h-auto rounded-md shadow-md" />
             
-            <img src="/public/image16.jpg" alt="Dish 1" className="w-64 h-auto rounded-md shadow-md" />
-            <img src="/public/image20.jpg" alt="Dish 1" className="w-64 h-auto rounded-md shadow-md" />
+            <img src="/image16.jpg" alt="Dish 1" className="w-64 h-auto rounded-md shadow-md" />
+            <img src="/image20.jpg" alt="Dish 1" className="w-64 h-auto rounded-md shadow-md" />
             
           </div>
           

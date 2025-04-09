@@ -6,7 +6,7 @@ const Reservation = () => {
     <div>
       <div>
       {/* Reservation section */}
-<div className="relative bg-gray-800 mt-18  py-13 overflow-hidden">
+<div className="relative bg-gray-800 mt-15  py-13 overflow-hidden">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover opacity-70"

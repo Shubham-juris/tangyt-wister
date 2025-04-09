@@ -7,7 +7,7 @@ const Menu = () => {
 {/* ............section1............ */}
 
 
-     <div className="flex bg-black mt-18 text-white sm:flex-row flex-col items-center justify-center p-10">
+     <div className="flex bg-black mt-15 text-white sm:flex-row flex-col items-center justify-center p-10">
       {/* Image Section */}
       <div className="w-1/2 relative mt-11 sm:mr-6 w-full object-cover mb-3">
         <img
