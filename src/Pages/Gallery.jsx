@@ -22,25 +22,60 @@ const Gallery = () => {
   return (
     <div>
       <div>
-       {/* Gallery section */}
-<div className="relative bg-gray-800 mt-18 mb-0 py-13 overflow-hidden">
-      <div className="absolute inset-0">
-        <img
-          className="w-full h-full object-cover opacity-70"
-          src="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&w=600" 
-          
-        />
-        <div className="absolute inset-0 bg-black opacity-10" aria-hidden="true" />
+
+      <div>
+  {/* Gallery section */}
+  <div className="relative bg-gray-800 mt-12 mb-0 py-10 md:py-16 overflow-hidden">
+    <div className="absolute inset-0">
+      <img
+        className="w-full h-full object-cover opacity-60 blur-sm md:blur-none transform scale-105 md:scale-100 transition-all duration-500"
+        src="https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="Gallery Background"
+      />
+      <div className="absolute inset-0 bg-black opacity-30 md:opacity-10" aria-hidden="true" />
+    </div>
+    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="text-center">
+        <h2 className="text-3xl md:text-5xl text-white font-semibold tracking-tight mb-4">
+          GALLERY
+        </h2>
+        <p className="mt-2 text-lg text-gray-300 sm:px-6 lg:px-24">
+          Explore our delicious dishes and vibrant atmosphere.
+        </p>
+        {/* Optional: Add a subtle animation to the heading */}
+        <style jsx>{`
+          h2 {
+            transition: transform 0.3s ease-in-out;
+          }
+          h2:hover {
+            transform: translateY(-2px);
+          }
+        `}</style>
       </div>
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h2 className="text-5xl text-white text-semibold tracking-tight sm:text-6 xl">
-           GALLERY
-          </h2>
-          
+      {/* Optional: Add a grid of images below the heading */}
+      <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+        <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img className="w-full h-auto object-cover" src=".../image1.jpg" alt="Image 1" />
+        </div>
+        <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img className="w-full h-auto object-cover" src=".../image2.jpg" alt="Image 2" />
+        </div>
+        <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img className="w-full h-auto object-cover" src=".../image3.jpg" alt="Image 3" />
+        </div>
+        <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img className="w-full h-auto object-cover" src=".../image4.jpg" alt="Image 4" />
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 
