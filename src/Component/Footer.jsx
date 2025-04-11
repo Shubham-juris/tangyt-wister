@@ -191,7 +191,7 @@ const Footer = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-red-500 hover:bg-red-400 text-white font-semibold py-2 px-4 rounded-full transition-colors duration-300"
+              className="bg-red-500 cursor-pointer hover:bg-red-400 text-white font-semibold py-2 px-4 rounded-full transition-colors duration-300"
             >
               Contact Us
             </motion.button>

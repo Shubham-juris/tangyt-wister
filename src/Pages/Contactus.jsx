@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Contactus = () => {
   return (
@@ -17,9 +18,12 @@ const Contactus = () => {
       </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
+          <Link to='/contact'>
           <h2 className="text-5xl text-white text-semibold tracking-tight sm:text-6 xl">
            CONTACT US
           </h2>
+          
+          </Link>
           
         </div>
       </div>
