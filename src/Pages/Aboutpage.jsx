@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Aboutpage = () => {
   return (
@@ -28,11 +29,14 @@ const Aboutpage = () => {
   </p>
 
   {/* Explore Menu Button */}
+  <Link to='/menu'>
   <button
     className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full shadow-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
   >
     Explore our menu
   </button>
+  </Link>
+  
 </div>
     </div>
 
@@ -281,9 +285,11 @@ OUR MENU
         
         <h1 className="text-xl md:text-5xl  mb-4">JOIN US FOR A DINNER</h1>
         <p className="text-lg  text-gray-500 md:text-xl mb-8">Make a reservation at Tangy Twisters Restaurant</p>
-        <button className="bg-red-600 hover:bg-red-700 text-white py-2 px-5 rounded-full">
+      <Link to='/reservation'>
+        <button className="bg-red-600 cursor-pointer hover:bg-red-700 text-white py-2 px-5 rounded-full">
           Reserve Now
         </button>
+        </Link>
       </div>
 
       </div>

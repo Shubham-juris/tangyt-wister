@@ -9,7 +9,7 @@ const Menu = () => {
 
     
 
-    <div className="bg-black text-white flex flex-col sm:flex-row items-center justify-center p-6 md:p-10">
+    <div className="bg-black text-white h-full md:h-screen flex flex-col sm:flex-row items-center justify-center p-6 md:p-10 ">
   {/* Image Section */}
   <div className="w-full sm:w-1/2 relative mb-4 sm:mb-0 sm:mr-6 overflow-hidden rounded-lg shadow-md">
     <img
