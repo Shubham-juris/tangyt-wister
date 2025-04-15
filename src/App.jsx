@@ -30,9 +30,9 @@ function AppContent() {
         <Route path="/reservation" element={<Reservation />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contactus />} />
-        {/* <Route path="/admin" element={<LoginRegister />} /> */}
+        <Route path="/admin" element={<LoginRegister />} />
       </Routes>
-      
+     
       {!hideHeaderFooter && <Footer />}
     </>
   );

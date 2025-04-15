@@ -39,10 +39,10 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-black px-4">
       <div className="bg-white rounded-xl p-8 shadow-2xl w-full max-w-md overflow-hidden">
         <h2 className="text-center text-2xl font-bold text-red-600 mb-6">
-          Login 
+          Login to Tangy Twister
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-4">

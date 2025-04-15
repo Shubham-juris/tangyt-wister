@@ -120,7 +120,7 @@
 
 // export default Footer
 import React from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation ,Link} from 'react-router-dom';
 import { motion } from 'framer-motion'; // For animations
 
 const Footer = () => {
@@ -188,13 +188,17 @@ const Footer = () => {
               </p>
               {/* You could add a dropdown or more detailed hours information here */}
             </div>
-            <motion.button
+           
+           <Link to='/contact'>
+           <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-red-500 cursor-pointer hover:bg-red-400 text-white font-semibold py-2 px-4 rounded-full transition-colors duration-300"
             >
               Contact Us
             </motion.button>
+            
+           </Link>
           </div>
 
           {/* Right Column: Dynamic Content (Map or Image) */}
