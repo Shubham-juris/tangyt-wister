@@ -149,6 +149,7 @@ const Footer = () => {
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Column: Contact Information */}
+              
           <div className="bg-black p-6 md:p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <h2 className="text-2xl font-bold text-white mb-4 md:mb-6 tracking-wider">
               VISIT US
