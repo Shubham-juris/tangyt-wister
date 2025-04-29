@@ -167,7 +167,7 @@ const Footer = () => {
                 Tangy Twisters
               </h3>
               <p className="text-gray-300 leading-relaxed mb-2 text-sm md:text-base">
-                21 Beju Industrial Drive, Unit 4, Sylvan Lake, AB T4S 2J7
+               11 Martinwood , wayne , Calgary , Alberta
               </p>
               <p className="text-red-500 hover:text-red-400 hover:underline mb-1 text-sm md:text-base">
                 <a href="mailto:tangytwisters.resto@gmail.com">
