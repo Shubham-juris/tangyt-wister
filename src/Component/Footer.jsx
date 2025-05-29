@@ -168,11 +168,11 @@ const Footer = () => {
                 Tangy Twisters
               </h3>
               <p className="text-gray-300 leading-relaxed mb-2 text-sm md:text-base">
-               11 Martinwood , wayne , Calgary , Alberta
+            21 Beju Ind.Dr#4,Sylvan Lake ,AB T4S 2J7
               </p>
               <p className="text-red-500 hover:text-red-400 hover:underline mb-1 text-sm md:text-base">
                 <a href="mailto:tangytwisters.resto@gmail.com">
-                  tangytwisters.resto@gmail.com
+                  twisterstangy@gmail.com
                 </a>
               </p>
               <p className="text-red-500 hover:text-red-400 hover:underline text-sm md:text-base">
